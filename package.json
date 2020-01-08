@@ -28,10 +28,10 @@
 	"dependencies": {
 		"@ctx-core/array": "^15.5.4",
 		"@ctx-core/svg": "^7.0.0",
-		"commander": "^4.0.1",
+		"commander": "^4.1.0",
 		"domutils": "^2.0.0",
 		"esm": "^3.2.25",
-		"globby": "^10.0.1",
+		"globby": "^11.0.0",
 		"htmlparser2": "^4.0.0",
 		"svelte": "^3.16.7"
 	},
