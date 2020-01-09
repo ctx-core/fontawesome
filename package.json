@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "10.2.47",
+	"version": "10.2.48",
 	"description": "ctx-core fontawesome",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
@@ -27,7 +27,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^15.5.6",
-		"@ctx-core/svg": "^7.0.4",
+		"@ctx-core/svg": "^7.0.5",
 		"commander": "^4.1.0",
 		"domutils": "^2.0.0",
 		"esm": "^3.2.25",
