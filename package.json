@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "10.2.53",
+	"version": "10.2.54",
 	"description": "ctx-core fontawesome",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
