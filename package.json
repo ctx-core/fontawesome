@@ -28,7 +28,6 @@
 	"dependencies": {
 		"@ctx-core/array": "^15.5.7",
 		"@ctx-core/svg": "^7.0.10",
-		"commander": "^4.1.1",
 		"domutils": "^2.0.0",
 		"esm": "^3.2.25",
 		"globby": "^11.0.0",
@@ -36,6 +35,7 @@
 		"svelte": "^3.18.1"
 	},
 	"devDependencies": {
+		"@ctx-core/cli-args": "^3.1.38",
 		"typescript": "^3.7.5"
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93"

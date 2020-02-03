@@ -2,7 +2,7 @@
 require = require('esm')(module)
 const fs = require('fs')
 const { basename, dirname, join, resolve } = require('path')
-const commander = require('commander')
+const { _h__param } = require('@ctx-core/cli-args')
 const { DomHandler, Parser } = require('htmlparser2')
 const { getInnerHTML } = require('domutils')
 const { promisify } = require('util')
@@ -60,25 +60,42 @@ ${h1__html__h0__name__component[name__Icon]}
 	}
 }
 function _opts() {
-	commander
-		.option('-d, --dir <fontawesome-dir>', 'fontawesome directory path')
-		.option('-o, --output-dir <library-dir> [${output_dir__default}]', 'library directory to write generated files to')
-	commander.parse(process.argv)
-	const a1__error__commander = _a1__error__commander()
-	if (a1__error__commander) {
-		throw a1__error__commander.join('\n')
+	const { dir, output_dir, help } =
+		_h__param(process.argv.slice(2), {
+			dir: '-d, --dir',
+			output_dir: '-o, --output-dir',
+			help: '-h, --help',
+		})
+	if (help) {
+		console.info(_help_msg())
+		process.exit(0)
+	}
+	const opts_error_a1 = _opts_error_a1({ dir, output_dir })
+	if (opts_error_a1) {
+		throw opts_error_a1.join('\n')
 	}
 	return {
-		dir: commander.dir,
-		output_dir: commander.outputDir || output_dir__default,
+		dir,
+		output_dir: output_dir || output_dir__default,
 	}
 }
-function _a1__error__commander() {
+function _help_msg() {
+	return `
+Usage: refresh-font-awesome.js -d <dir> -o <output-dir>
+
+Options:
+
+-h, --help        This help message
+-d, --dir         Directory containing fontawesome files 
+-o, --output-dir  Directory to output generated components to
+		`.trim()
+}
+function _opts_error_a1({ dir, output_dir }) {
 	const a1__error = []
-	if (!commander.dir) {
+	if (!dir) {
 		a1__error.push('missing --dir <fontawesome-dir>')
 	}
-	if (!commander.outputDir) {
+	if (!output_dir) {
 		a1__error.push('missing --output-dir <library-dir>')
 	}
 	return a1__error.length && a1__error
