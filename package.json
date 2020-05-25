@@ -2,6 +2,7 @@
 	"name": "@ctx-core/fontawesome",
 	"version": "10.2.76",
 	"description": "ctx-core fontawesome",
+	"type": "module",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
