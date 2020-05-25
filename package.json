@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "10.2.78",
+	"version": "10.2.79",
 	"description": "ctx-core fontawesome",
 	"type": "module",
 	"scripts": {
@@ -27,15 +27,15 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^15.5.19",
-		"@ctx-core/svg": "^7.0.34",
+		"@ctx-core/array": "^15.5.20",
+		"@ctx-core/svg": "^7.0.35",
 		"domutils": "^2.1.0",
 		"globby": "^11.0.0",
 		"htmlparser2": "^4.1.0",
 		"svelte": "^3.22.3"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "^3.1.50",
+		"@ctx-core/cli-args": "^3.1.51",
 		"typescript": "^3.9.3"
 	},
 	"gitHead": "4955b77b8967f5d8ff44c2a0591b5b2b32ec20bb"
