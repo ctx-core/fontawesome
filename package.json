@@ -30,7 +30,6 @@
 		"@ctx-core/array": "^15.5.17",
 		"@ctx-core/svg": "^7.0.32",
 		"domutils": "^2.1.0",
-		"esm": "^3.2.25",
 		"globby": "^11.0.0",
 		"htmlparser2": "^4.1.0",
 		"svelte": "^3.22.3"
