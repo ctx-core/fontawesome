@@ -2,7 +2,6 @@
 	"name": "@ctx-core/fontawesome",
 	"version": "10.2.79",
 	"description": "ctx-core fontawesome",
-	"type": "module",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
@@ -30,6 +29,7 @@
 		"@ctx-core/array": "^15.5.20",
 		"@ctx-core/svg": "^7.0.35",
 		"domutils": "^2.1.0",
+		"esm": "^3.2.25",
 		"globby": "^11.0.0",
 		"htmlparser2": "^4.1.0",
 		"svelte": "^3.22.3"

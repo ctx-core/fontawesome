@@ -1,13 +1,14 @@
 #!/usr/bin/env node
-import fs from 'fs'
-import { basename, dirname, join, resolve } from 'path'
-import { _h__param } from '@ctx-core/cli-args'
-import { DomHandler, Parser } from 'htmlparser2'
-import { getInnerHTML } from 'domutils'
-import { promisify } from 'util'
-import { assign, keys } from '@ctx-core/object'
-import { map, sort } from '@ctx-core/array'
-import globby from 'globby'
+require = require('esm')(module)
+const fs = require('fs')
+const { basename, dirname, join, resolve } = require('path')
+const { _h__param } = require('@ctx-core/cli-args')
+const { DomHandler, Parser } = require('htmlparser2')
+const { getInnerHTML } = require('domutils')
+const { promisify } = require('util')
+const { assign, keys } = require('@ctx-core/object')
+const { map, sort } = require('@ctx-core/array')
+const globby = require('globby')
 const readFile = promisify(fs.readFile)
 const writeFile = promisify(fs.writeFile)
 const output_dir__default = resolve(join(__dirname, '/../'))
