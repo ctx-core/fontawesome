@@ -36,7 +36,7 @@
 	},
 	"devDependencies": {
 		"@ctx-core/cli-args": "^3.1.53",
-		"typescript": "^3.9.5"
+		"typescript": "^3.9.6"
 	},
 	"gitHead": "4955b77b8967f5d8ff44c2a0591b5b2b32ec20bb"
 }
