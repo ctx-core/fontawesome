@@ -2,7 +2,7 @@
 require = require('esm')(module)
 const fs = require('fs')
 const { basename, dirname, join, resolve } = require('path')
-const { _h__param } = require('@ctx-core/cli-args')
+const { _param_h } = require('@ctx-core/cli-args')
 const { DomHandler, Parser } = require('htmlparser2')
 const { getInnerHTML } = require('domutils')
 const { promisify } = require('util')
@@ -61,7 +61,7 @@ ${h1__html__h0__name__component[name__Icon]}
 }
 function _opts() {
 	const { dir, output_dir, help } =
-		_h__param(process.argv.slice(2), {
+		_param_h(process.argv.slice(2), {
 			dir: '-d, --dir',
 			output_dir: '-o, --output-dir',
 			help: '-h, --help',
