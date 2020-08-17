@@ -28,7 +28,7 @@
 	"dependencies": {
 		"@ctx-core/array": "^16.0.13",
 		"@ctx-core/svg": "^7.0.83",
-		"domutils": "^2.1.0",
+		"domutils": "^2.2.0",
 		"esm": "^3.2.25",
 		"globby": "^11.0.1",
 		"htmlparser2": "^4.1.0",
