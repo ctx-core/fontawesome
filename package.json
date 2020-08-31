@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "10.2.134",
+	"version": "10.2.135",
 	"description": "ctx-core fontawesome",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
@@ -35,7 +35,7 @@
 		"svelte": "^3.24.1"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "^4.0.4",
+		"@ctx-core/cli-args": "^4.1.0",
 		"typescript": "^4.0.2"
 	},
 	"gitHead": "e7ceb4b0b8a128b09cec302a252bf5ca7fb8cf6d"
