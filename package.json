@@ -26,7 +26,7 @@
 	"dependencies": {
 		"@ctx-core/array": "workspace:*",
 		"@ctx-core/svg": "workspace:*",
-		"domutils": "^2.2.0",
+		"domutils": "^2.3.0",
 		"esm": "^3.2.25",
 		"globby": "^11.0.1",
 		"htmlparser2": "^4.1.0",
