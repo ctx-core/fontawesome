@@ -2,33 +2,30 @@
 	"name": "@ctx-core/fontawesome",
 	"version": "10.2.145",
 	"description": "ctx-core fontawesome",
-	"scripts": {
-		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
-		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile",
-		"exec": "$@"
+	"keywords": [
+		"ctx-core",
+		"fontawesome"
+	],
+	"homepage": "https://github.com/ctx-core/fontawesome#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/fontawesome/issues"
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ctx-core/fontawesome/issues"
 	},
-	"keywords": [
-		"ctx-core",
-		"fontawesome"
-	],
-	"author": "Brian Takita",
 	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/ctx-core/fontawesome/issues"
-	},
-	"homepage": "https://github.com/ctx-core/fontawesome#readme",
-	"publishConfig": {
-		"access": "public"
+	"author": "Brian Takita",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^17.0.4",
-		"@ctx-core/svg": "^7.0.97",
+		"@ctx-core/array": "workspace:*",
+		"@ctx-core/svg": "workspace:*",
 		"domutils": "^2.2.0",
 		"esm": "^3.2.25",
 		"globby": "^11.0.1",
@@ -36,8 +33,11 @@
 		"svelte": "^3.25.0"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "^4.1.7",
+		"@ctx-core/cli-args": "workspace:*",
 		"typescript": "^4.0.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"gitHead": "87be1f98ac464f3b2291504f5803cfb24011c19b"
 }
