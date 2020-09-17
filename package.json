@@ -1,43 +1,43 @@
 {
-	"name": "@ctx-core/fontawesome",
-	"version": "10.2.145",
-	"description": "ctx-core fontawesome",
-	"keywords": [
-		"ctx-core",
-		"fontawesome"
-	],
-	"homepage": "https://github.com/ctx-core/fontawesome#readme",
-	"bugs": {
-		"url": "https://github.com/ctx-core/fontawesome/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/fontawesome/issues"
-	},
-	"license": "Apache-2.0",
-	"author": "Brian Takita",
-	"scripts": {
-		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
-		"compile": "tsc -b",
-		"exec": "$@",
-		"prepublishOnly": "npm run compile"
-	},
-	"dependencies": {
-		"@ctx-core/array": "workspace:*",
-		"@ctx-core/svg": "workspace:*",
-		"domutils": "^2.3.0",
-		"esm": "^3.2.25",
-		"globby": "^11.0.1",
-		"htmlparser2": "^4.1.0",
-		"svelte": "^3.25.0"
-	},
-	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:*",
-		"typescript": "^4.0.2"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"gitHead": "87be1f98ac464f3b2291504f5803cfb24011c19b"
+  "name": "@ctx-core/fontawesome",
+  "version": "10.2.146",
+  "description": "ctx-core fontawesome",
+  "keywords": [
+    "ctx-core",
+    "fontawesome"
+  ],
+  "homepage": "https://github.com/ctx-core/fontawesome#readme",
+  "bugs": {
+    "url": "https://github.com/ctx-core/fontawesome/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctx-core/fontawesome/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Brian Takita",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -f tsconfig.tsbuildinfo",
+    "compile": "tsc -b",
+    "exec": "$@",
+    "prepublishOnly": "npm run compile"
+  },
+  "dependencies": {
+    "@ctx-core/array": "workspace:*",
+    "@ctx-core/svg": "workspace:*",
+    "domutils": "^2.3.0",
+    "esm": "^3.2.25",
+    "globby": "^11.0.1",
+    "htmlparser2": "^4.1.0",
+    "svelte": "~3.25.1"
+  },
+  "devDependencies": {
+    "@ctx-core/cli-args": "workspace:*",
+    "typescript": "^4.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "87be1f98ac464f3b2291504f5803cfb24011c19b"
 }
