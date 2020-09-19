@@ -1,1 +1,1 @@
-export * from './[name__icon].svg';
+export * from './[icon_name].svg';
