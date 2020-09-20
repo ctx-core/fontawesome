@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 11.0.2
+
+### Patch Changes
+
+- fix: install issues: using explicit workspace: versioning
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.2
+  - @ctx-core/svg@8.0.2
+
 ## 11.0.1
 
 ### Patch Changes
