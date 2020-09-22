@@ -33,7 +33,7 @@
 		"svelte": "3.26.0"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^6.0.8",
+		"@ctx-core/cli-args": "workspace:^6.1.0",
 		"typescript": "^4.0.3"
 	},
 	"publishConfig": {
