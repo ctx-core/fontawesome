@@ -1,42 +1,42 @@
 {
-	"name": "@ctx-core/fontawesome",
-	"version": "11.0.37",
-	"description": "ctx-core fontawesome",
-	"keywords": [
-		"ctx-core",
-		"fontawesome"
-	],
-	"homepage": "https://github.com/ctx-core/fontawesome#readme",
-	"bugs": {
-		"url": "https://github.com/ctx-core/fontawesome/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/fontawesome/issues"
-	},
-	"license": "Apache-2.0",
-	"author": "Brian Takita",
-	"scripts": {
-		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
-		"compile": "./node_modules/.bin/tsc -b",
-		"exec": "$@",
-		"prepublishOnly": "npm run compile"
-	},
-	"dependencies": {
-		"@ctx-core/array": "workspace:^19.0.18",
-		"@ctx-core/svg": "workspace:^8.0.37",
-		"domutils": "^2.4.0",
-		"esm": "^3.2.25",
-		"globby": "^11.0.1",
-		"htmlparser2": "^4.1.0",
-		"svelte": "3.28.0"
-	},
-	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^6.1.10",
-		"typescript": "^4.0.3"
-	},
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@ctx-core/fontawesome",
+  "version": "11.0.38",
+  "description": "ctx-core fontawesome",
+  "keywords": [
+    "ctx-core",
+    "fontawesome"
+  ],
+  "homepage": "https://github.com/ctx-core/fontawesome#readme",
+  "bugs": {
+    "url": "https://github.com/ctx-core/fontawesome/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctx-core/fontawesome/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Brian Takita",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -f tsconfig.tsbuildinfo",
+    "compile": "./node_modules/.bin/tsc -b",
+    "exec": "$@",
+    "prepublishOnly": "npm run compile"
+  },
+  "dependencies": {
+    "@ctx-core/array": "workspace:^19.0.19",
+    "@ctx-core/svg": "workspace:^8.0.38",
+    "domutils": "^2.4.0",
+    "esm": "^3.2.25",
+    "globby": "^11.0.1",
+    "htmlparser2": "^4.1.0",
+    "svelte": "3.28.0"
+  },
+  "devDependencies": {
+    "@ctx-core/cli-args": "workspace:^6.1.11",
+    "typescript": "^4.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
