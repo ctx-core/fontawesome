@@ -1,5 +1,15 @@
 # @ctx-core/fontawesome
 
+## 11.0.73
+
+### Patch Changes
+
+- domutils: ^2.4.3 -> ^2.4.4
+- htmlparser2: ^5.0.1 -> ^6.0.0
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/svg@8.2.4
+
 ## 11.0.72
 
 ### Patch Changes
