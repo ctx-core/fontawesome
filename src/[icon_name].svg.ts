@@ -1,8 +1,8 @@
-import {
-	_get as _svg_get, _get_opts_type, _get_type, get_type
-} from '@ctx-core/svg/[icon_name].svg'
 import { join } from 'path'
 import { promisify } from 'util'
+import {
+	_get as _svg_get, _get_opts_type, _get_type, get_type
+} from '@ctx-core/svg'
 const resolve = promisify(require('resolve'))
 export const _get = ((opts:_get_opts_type = {})=>{
 	const { fn } = opts
