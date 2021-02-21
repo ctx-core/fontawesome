@@ -1,5 +1,12 @@
 # @ctx-core/fontawesome
 
+## 12.0.25
+
+### Patch Changes
+
+- @ctx-core/array@20.1.10
+- @ctx-core/svg@10.1.17
+
 ## 12.0.24
 
 ### Patch Changes
