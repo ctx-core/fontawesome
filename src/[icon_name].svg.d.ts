@@ -1,3 +1,3 @@
-import { _get_type, get_type } from '@ctx-core/svg';
-export declare const _get: _get_type;
-export declare const get: get_type;
+import { _get_T, get_T } from '@ctx-core/svg';
+export declare const _get: _get_T;
+export declare const get: get_T;
