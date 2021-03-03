@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "12.0.34",
+	"version": "12.0.35",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -27,8 +27,8 @@
 	"module": "./src/index.js",
 	"types": "./src/index.ts",
 	"dependencies": {
-		"@ctx-core/array": "workspace:^20.1.12",
-		"@ctx-core/svg": "workspace:^10.2.4",
+		"@ctx-core/array": "workspace:^20.1.13",
+		"@ctx-core/svg": "workspace:^10.2.5",
 		"domutils": "^2.4.4",
 		"esm": "^3.2.25",
 		"globby": "^11.0.2",
@@ -36,7 +36,7 @@
 		"svelte": "3.35.0"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^7.2.1",
+		"@ctx-core/cli-args": "workspace:^7.2.2",
 		"typescript": "^4.2.2"
 	},
 	"publishConfig": {
