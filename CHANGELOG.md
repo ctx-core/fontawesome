@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 12.0.44
+
+### Patch Changes
+
+- domutils: ^2.4.4 -> ^2.5.0
+- Updated dependencies [undefined]
+  - @ctx-core/svg@10.2.14
+
 ## 12.0.43
 
 ### Patch Changes
