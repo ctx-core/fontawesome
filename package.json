@@ -31,7 +31,7 @@
 		"@ctx-core/svg": "workspace:^10.2.17",
 		"domutils": "^2.5.0",
 		"esm": "^3.2.25",
-		"globby": "^11.0.2",
+		"globby": "^11.0.3",
 		"htmlparser2": "^6.0.1",
 		"svelte": "3.35.0"
 	},
