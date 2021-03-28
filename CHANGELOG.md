@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome
 
+## 12.0.48
+
+### Patch Changes
+
+- 39607cca5: globby: ^11.0.2 -> ^11.0.3
+
 ## 12.0.47
 
 ### Patch Changes
