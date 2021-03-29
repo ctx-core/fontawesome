@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 12.0.50
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.2
+  - @ctx-core/svg@10.2.19
+
 ## 12.0.49
 
 ### Patch Changes
