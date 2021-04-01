@@ -33,7 +33,7 @@
 		"esm": "^3.2.25",
 		"globby": "^11.0.3",
 		"htmlparser2": "^6.0.1",
-		"svelte": "3.35.0"
+		"svelte": "3.37.0"
 	},
 	"devDependencies": {
 		"@ctx-core/cli-args": "workspace:^7.2.13",
