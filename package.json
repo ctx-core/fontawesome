@@ -29,7 +29,7 @@
 	"dependencies": {
 		"@ctx-core/array": "workspace:^20.2.3",
 		"@ctx-core/svg": "workspace:^10.2.20",
-		"domutils": "^2.5.0",
+		"domutils": "^2.5.1",
 		"esm": "^3.2.25",
 		"globby": "^11.0.3",
 		"htmlparser2": "^6.0.1",
