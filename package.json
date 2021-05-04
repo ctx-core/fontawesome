@@ -27,8 +27,8 @@
 	"module": "./src/index.js",
 	"types": "./src/index.ts",
 	"dependencies": {
-		"@ctx-core/array": "workspace:^20.2.22",
-		"@ctx-core/svg": "workspace:^10.2.61",
+		"@ctx-core/array": "workspace:^20.2.23",
+		"@ctx-core/svg": "workspace:^10.2.62",
 		"domutils": "^2.6.0",
 		"esm": "^3.2.25",
 		"globby": "^11.0.3",
@@ -36,7 +36,7 @@
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^7.2.31",
+		"@ctx-core/cli-args": "workspace:^7.2.32",
 		"typescript": "^4.2.4"
 	},
 	"publishConfig": {
