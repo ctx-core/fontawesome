@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 12.0.64
+
+### Patch Changes
+
+- svelte: 3.38.1 -> 3.38.2
+- Updated dependencies [undefined]
+  - @ctx-core/svg@10.2.61
+
 ## 12.0.63
 
 ### Patch Changes
