@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 12.0.65
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.25
+  - @ctx-core/svg@10.2.64
+
 ## 12.0.64
 
 ### Patch Changes
