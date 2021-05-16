@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 12.1.1
+
+### Patch Changes
+
+- fix: target: 2018: nodejs compatability
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.1
+  - @ctx-core/svg@10.3.1
+
 ## 12.1.0
 
 ### Minor Changes
