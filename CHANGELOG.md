@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 12.2.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.1
+  - @ctx-core/svg@10.5.1
+
 ## 12.2.0
 
 ### Minor Changes
