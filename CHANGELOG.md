@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 12.1.4
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.10
+  - @ctx-core/svg@10.4.3
+
 ## 12.1.3
 
 ### Patch Changes
