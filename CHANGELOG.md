@@ -1,5 +1,17 @@
 # @ctx-core/fontawesome
 
+## 12.2.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.0
+  - @ctx-core/svg@10.5.0
+
 ## 12.1.4
 
 ### Patch Changes
