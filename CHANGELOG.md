@@ -1,5 +1,17 @@
 # @ctx-core/fontawesome
 
+## 12.3.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.5.0
+  - @ctx-core/svg@10.6.0
+
 ## 12.2.2
 
 ### Patch Changes
