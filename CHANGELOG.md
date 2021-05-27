@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 12.3.1
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/svg@10.6.4
+
 ## 12.3.0
 
 ### Minor Changes
