@@ -27,7 +27,7 @@
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"dependencies": {
-		"@ctx-core/array": "workspace:^20.5.1",
+		"@ctx-core/array": "workspace:^20.5.2",
 		"@ctx-core/svg": "workspace:^10.6.5",
 		"domutils": "^2.6.0",
 		"esm": "^3.2.25",
