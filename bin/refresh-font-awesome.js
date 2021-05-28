@@ -11,19 +11,19 @@ const { map, sort } = require('@ctx-core/array')
 const globby = require('globby')
 const readFile = promisify(fs.readFile)
 const writeFile = promisify(fs.writeFile)
-const output_dir__default = resolve(join(__dirname, '/../'))
-main()
+const default_output_dir = resolve(join(__dirname, '/../'))
+main().then()
 async function main() {
 	const { dir, output_dir } = _opts()
-	const a1__path__svg = await globby(`${dir}/svgs/*/*.svg`)
-	const h1__html__h0__name__component = {}
-	await assign__h1__html__h0__name__component()
-	await write__files()
-	async function assign__h1__html__h0__name__component() {
-		const a1__promise = map(a1__path__svg, async path__svg => {
-			const name__icon = basename(path__svg, '.svg')
-			const style = basename(dirname(path__svg)).replace('brands', 'brand')
-			const name__component = `FA-${name__icon}-${style}`
+	const svg_path_a1 = await globby(`${dir}/svgs/*/*.svg`)
+	const component_name_h_html = {}
+	await assign_component_name_h0_html_h1()
+	await write_files()
+	async function assign_component_name_h0_html_h1() {
+		const promise_a1 = map(svg_path_a1, async svg_path => {
+			const icon_name = basename(svg_path, '.svg')
+			const style = basename(dirname(svg_path)).replace('brands', 'brand')
+			const component_name = `FA-${icon_name}-${style}`
 			let html
 			const handler = new DomHandler((error, dom) => {
 				if (error) {
@@ -39,22 +39,22 @@ async function main() {
 				}
 			})
 			const parser = new Parser(handler)
-			const html__file = await readFile(path__svg)
-			parser.write(html__file)
+			const file_html = await readFile(svg_path)
+			parser.write(file_html)
 			parser.end()
-			h1__html__h0__name__component[name__component] = html
+			component_name_h_html[component_name] = html
 		})
-		await Promise.all(a1__promise)
+		await Promise.all(promise_a1)
 	}
-	async function write__files() {
-		const a1__name__Icon = sort(keys(h1__html__h0__name__component))
-		await Promise.all(map(a1__name__Icon, name__Icon => {
-			writeFile(`${output_dir}/ui/${name__Icon}.svelte`, `
+	async function write_files() {
+		const Icon_name_a1 = sort(keys(component_name_h_html))
+		await Promise.all(map(Icon_name_a1, Icon_name => {
+			writeFile(`${output_dir}/ui/${Icon_name}.svelte`, `
 <script>
 import Icon from '@ctx-core/fontawesome/ui/Icon.svelte'
 export let node = null
 </script>
-${h1__html__h0__name__component[name__Icon]}
+${component_name_h_html[Icon_name]}
 			`.trim())
 		}))
 	}
@@ -76,7 +76,7 @@ function _opts() {
 	}
 	return {
 		dir,
-		output_dir: output_dir || output_dir__default,
+		output_dir: output_dir || default_output_dir,
 	}
 }
 function _help_msg() {
@@ -91,12 +91,12 @@ Options:
 		`.trim()
 }
 function _opts_error_a1({ dir, output_dir }) {
-	const a1__error = []
+	const error_a1 = []
 	if (!dir) {
-		a1__error.push('missing --dir <fontawesome-dir>')
+		error_a1.push('missing --dir <fontawesome-dir>')
 	}
 	if (!output_dir) {
-		a1__error.push('missing --output-dir <library-dir>')
+		error_a1.push('missing --output-dir <library-dir>')
 	}
-	return a1__error.length && a1__error
+	return error_a1.length && error_a1
 }
