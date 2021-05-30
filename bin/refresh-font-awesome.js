@@ -20,7 +20,7 @@ async function main() {
 	await assign_component_name_h0_html_h1()
 	await write_files()
 	async function assign_component_name_h0_html_h1() {
-		const promise_a1 = map(svg_path_a1, async svg_path => {
+		const promise_a = map(svg_path_a1, async svg_path => {
 			const icon_name = basename(svg_path, '.svg')
 			const style = basename(dirname(svg_path)).replace('brands', 'brand')
 			const component_name = `FA-${icon_name}-${style}`
@@ -44,7 +44,7 @@ async function main() {
 			parser.end()
 			component_name_h_html[component_name] = html
 		})
-		await Promise.all(promise_a1)
+		await Promise.all(promise_a)
 	}
 	async function write_files() {
 		const Icon_name_a1 = sort(keys(component_name_h_html))

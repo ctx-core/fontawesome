@@ -1,12 +1,12 @@
 import { join } from 'path'
 import { promisify } from 'util'
 import {
-	_get as _svg_get, _get_opts_T, _get_T, get_T
+	get_ as svg_get_, get_opts__T, get__T, get_T
 } from '@ctx-core/svg'
 const resolve = promisify(require('resolve'))
-export const _get = ((opts:_get_opts_T = {})=>{
+export const get_ = ((opts:get_opts__T = {})=>{
 	const { fn } = opts
-	return _svg_get({
+	return svg_get_({
 		fn,
 		resolve:
 			opts.resolve
@@ -14,5 +14,5 @@ export const _get = ((opts:_get_opts_T = {})=>{
 				name__icon=>
 					resolve(join('@ctx-core/fontawesome/ui', `FA-${name__icon}.html`)))
 	})
-}) as _get_T
-export const get = _get() as get_T
+}) as get__T
+export const get = get_() as get_T
