@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome
 
+## 13.0.4
+
+### Patch Changes
+
+- update dependencies
+
 ## 13.0.3
 
 ### Patch Changes
