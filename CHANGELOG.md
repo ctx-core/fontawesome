@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 13.0.16
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.6
+  - @ctx-core/svg@11.0.26
+
 ## 13.0.15
 
 ### Patch Changes
