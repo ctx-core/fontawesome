@@ -28,7 +28,7 @@
 	"types": "./dist/index.d.ts",
 	"dependencies": {
 		"@ctx-core/array": "workspace:^21.2.8",
-		"@ctx-core/svg": "workspace:^11.0.28",
+		"@ctx-core/svg": "workspace:^11.0.29",
 		"domutils": "^2.7.0",
 		"esm": "^3.2.25",
 		"globby": "^11.0.3",
