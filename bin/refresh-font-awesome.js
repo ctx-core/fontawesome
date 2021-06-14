@@ -15,12 +15,12 @@ const default_output_dir = resolve(join(__dirname, '/../'))
 main().then()
 async function main() {
 	const { dir, output_dir } = _opts()
-	const svg_path_a1 = await globby(`${dir}/svgs/*/*.svg`)
+	const svg_path_a = await globby(`${dir}/svgs/*/*.svg`)
 	const component_name_h_html = {}
 	await assign_component_name_h0_html_h1()
 	await write_files()
 	async function assign_component_name_h0_html_h1() {
-		const promise_a = map(svg_path_a1, async svg_path => {
+		const promise_a = map(svg_path_a, async svg_path => {
 			const icon_name = basename(svg_path, '.svg')
 			const style = basename(dirname(svg_path)).replace('brands', 'brand')
 			const component_name = `FA-${icon_name}-${style}`
@@ -47,8 +47,8 @@ async function main() {
 		await Promise.all(promise_a)
 	}
 	async function write_files() {
-		const Icon_name_a1 = sort(keys(component_name_h_html))
-		await Promise.all(map(Icon_name_a1, Icon_name => {
+		const Icon_name_a = sort(keys(component_name_h_html))
+		await Promise.all(map(Icon_name_a, Icon_name => {
 			writeFile(`${output_dir}/ui/${Icon_name}.svelte`, `
 <script>
 import Icon from '@ctx-core/fontawesome/ui/Icon.svelte'
@@ -70,9 +70,9 @@ function _opts() {
 		console.info(_help_msg())
 		process.exit(0)
 	}
-	const opts_error_a1 = _opts_error_a1({ dir, output_dir })
-	if (opts_error_a1) {
-		throw opts_error_a1.join('\n')
+	const opts_error_a = opts_error_a_({ dir, output_dir })
+	if (opts_error_a) {
+		throw opts_error_a.join('\n')
 	}
 	return {
 		dir,
@@ -90,13 +90,13 @@ Options:
 -o, --output-dir  Directory to output generated components to
 		`.trim()
 }
-function _opts_error_a1({ dir, output_dir }) {
-	const error_a1 = []
+function opts_error_a_({ dir, output_dir }) {
+	const error_a = []
 	if (!dir) {
-		error_a1.push('missing --dir <fontawesome-dir>')
+		error_a.push('missing --dir <fontawesome-dir>')
 	}
 	if (!output_dir) {
-		error_a1.push('missing --output-dir <library-dir>')
+		error_a.push('missing --output-dir <library-dir>')
 	}
-	return error_a1.length && error_a1
+	return error_a.length && error_a
 }

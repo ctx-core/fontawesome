@@ -1,5 +1,17 @@
 # @ctx-core/fontawesome
 
+## 14.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.0
+  - @ctx-core/svg@12.0.0
+
 ## 13.0.23
 
 ### Patch Changes
