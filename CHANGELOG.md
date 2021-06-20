@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 14.0.6
+
+### Patch Changes
+
+- npm run prepare instead of npm run prepublishOnly
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.6
+  - @ctx-core/svg@12.0.9
+
 ## 14.0.5
 
 ### Patch Changes
