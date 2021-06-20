@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 14.0.8
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.8
+  - @ctx-core/svg@12.0.11
+
 ## 14.0.7
 
 ### Patch Changes
