@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 14.0.5
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.5
+  - @ctx-core/svg@12.0.8
+
 ## 14.0.4
 
 ### Patch Changes
