@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 14.0.11
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.11
+  - @ctx-core/svg@12.0.15
+
 ## 14.0.10
 
 ### Patch Changes
