@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "14.0.13",
+	"version": "14.0.14",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -17,18 +17,19 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"scripts": {
-		"build": "npm run clean && npm run compile",
+		"build": "npm run clean && npm run copy-components && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
+		"copy-components": "cd src && find . | grep \\.svelte$ | awk '{print \"mkdir -p dirname \"$1\" && cp -f \"$1\" ../dist/\"$1}'",
 		"exec": "$@",
-		"prepublishOnly": "npm run clean && npm run compile"
+		"prepublishOnly": "npm run build"
 	},
-	"main": "./src/index.js",
-	"module": "./src/index.js",
-	"types": "./src/index.d.ts",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
 	"dependencies": {
-		"@ctx-core/array": "workspace:^22.0.15",
-		"@ctx-core/svg": "workspace:^12.0.19",
+		"@ctx-core/array": "workspace:^22.0.16",
+		"@ctx-core/svg": "workspace:^12.0.20",
 		"domutils": "^2.7.0",
 		"esm": "^3.2.25",
 		"globby": "^11.0.4",
@@ -36,7 +37,7 @@
 		"svelte": "3.38.3"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^9.0.15",
+		"@ctx-core/cli-args": "workspace:^9.0.16",
 		"typescript": "^4.3.4"
 	},
 	"publishConfig": {
