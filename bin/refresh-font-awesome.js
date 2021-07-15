@@ -3,10 +3,10 @@ import { readFile, writeFile } from 'fs/promises'
 import { basename, dirname, join, resolve } from 'path'
 import { DomHandler, Parser } from 'htmlparser2'
 import { getInnerHTML } from 'domutils'
+import globby from 'globby'
 import { param_r_ } from '@ctx-core/cli-args'
 import { assign, keys } from '@ctx-core/object'
 import { map, sort } from '@ctx-core/array'
-import globby from 'globby'
 const default_output_dir = resolve(join(__dirname, '/../'))
 await main()
 async function main() {

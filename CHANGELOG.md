@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome
 
+## 15.0.4
+
+### Patch Changes
+
+- fix: module imports;types
+
 ## 15.0.3
 
 ### Patch Changes
