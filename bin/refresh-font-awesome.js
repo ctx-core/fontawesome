@@ -1,25 +1,21 @@
 #!/usr/bin/env node
-require = require('esm')(module)
-const fs = require('fs')
-const { basename, dirname, join, resolve } = require('path')
-const { _param_h } = require('@ctx-core/cli-args')
-const { DomHandler, Parser } = require('htmlparser2')
-const { getInnerHTML } = require('domutils')
-const { promisify } = require('util')
-const { assign, keys } = require('@ctx-core/object')
-const { map, sort } = require('@ctx-core/array')
-const globby = require('globby')
-const readFile = promisify(fs.readFile)
-const writeFile = promisify(fs.writeFile)
+import { readFile, writeFile } from 'fs/promises'
+import { basename, dirname, join, resolve } from 'path'
+import { DomHandler, Parser } from 'htmlparser2'
+import { getInnerHTML } from 'domutils'
+import { param_r_ } from '@ctx-core/cli-args'
+import { assign, keys } from '@ctx-core/object'
+import { map, sort } from '@ctx-core/array'
+import globby from 'globby'
 const default_output_dir = resolve(join(__dirname, '/../'))
-main().then()
+await main()
 async function main() {
-	const { dir, output_dir } = _opts()
+	const { dir, output_dir } = opts_()
 	const svg_path_a = await globby(`${dir}/svgs/*/*.svg`)
-	const component_name_h_html = {}
-	await assign_component_name_h0_html_h1()
+	const component_name_r_html = {}
+	await assign_component_name_r_html()
 	await write_files()
-	async function assign_component_name_h0_html_h1() {
+	async function assign_component_name_r_html() {
 		const promise_a = map(svg_path_a, async svg_path => {
 			const icon_name = basename(svg_path, '.svg')
 			const style = basename(dirname(svg_path)).replace('brands', 'brand')
@@ -42,26 +38,26 @@ async function main() {
 			const file_html = await readFile(svg_path)
 			parser.write(file_html)
 			parser.end()
-			component_name_h_html[component_name] = html
+			component_name_r_html[component_name] = html
 		})
 		await Promise.all(promise_a)
 	}
 	async function write_files() {
-		const Icon_name_a = sort(keys(component_name_h_html))
+		const Icon_name_a = sort(keys(component_name_r_html))
 		await Promise.all(map(Icon_name_a, Icon_name => {
 			writeFile(`${output_dir}/ui/${Icon_name}.svelte`, `
 <script>
 import Icon from '@ctx-core/fontawesome/ui/Icon.svelte'
 export let node = null
 </script>
-${component_name_h_html[Icon_name]}
+${component_name_r_html[Icon_name]}
 			`.trim())
 		}))
 	}
 }
-function _opts() {
+function opts_() {
 	const { dir, output_dir, help } =
-		_param_h(process.argv.slice(2), {
+		param_r_(process.argv.slice(2), {
 			dir: '-d, --dir',
 			output_dir: '-o, --output-dir',
 			help: '-h, --help',
