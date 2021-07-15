@@ -1,5 +1,15 @@
 # @ctx-core/fontawesome
 
+## 15.0.1
+
+### Patch Changes
+
+- 2a6971f80: fix: "type": "module"
+- Updated dependencies [2a6971f80]
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.1
+  - @ctx-core/svg@13.0.1
+
 ## 15.0.0
 
 ### Major Changes
