@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome
 
+## 15.0.7
+
+### Patch Changes
+
+- fix: import.meta.url instead of \_\_dirname
+
 ## 15.0.6
 
 ### Patch Changes

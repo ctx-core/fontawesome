@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 import { readFile, writeFile } from 'fs/promises'
-import { basename, dirname, join, resolve } from 'path'
+import { resolve } from 'import-meta-resolve'
+import { basename, dirname } from 'path'
 import { DomHandler, Parser } from 'htmlparser2'
 import { getInnerHTML } from 'domutils'
 import globby from 'globby'
 import { param_r_ } from '@ctx-core/cli-args'
 import { assign, keys } from '@ctx-core/object'
 import { map, sort } from '@ctx-core/array'
-const default_output_dir = resolve(join(__dirname, '/../'))
 await main()
 async function main() {
-	const { dir, output_dir } = opts_()
+	const { dir, output_dir } = await opts_()
 	const svg_path_a = await globby(`${dir}/svgs/*/*.svg`)
 	const component_name_r_html = {}
 	await assign_component_name_r_html()
@@ -55,7 +55,7 @@ ${component_name_r_html[Icon_name]}
 		}))
 	}
 }
-function opts_() {
+async function opts_() {
 	const { dir, output_dir, help } =
 		param_r_(process.argv.slice(2), {
 			dir: '-d, --dir',
@@ -72,7 +72,7 @@ function opts_() {
 	}
 	return {
 		dir,
-		output_dir: output_dir || default_output_dir,
+		output_dir: output_dir || new URL(await resolve('../', import.meta.url)).pathname,
 	}
 }
 function _help_msg() {
