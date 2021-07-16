@@ -1,5 +1,23 @@
 # @ctx-core/fontawesome
 
+## 15.0.10
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.6
+  - @ctx-core/svg@13.0.7
+
+## 15.0.9
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.5
+  - @ctx-core/svg@13.0.7
+
 ## 15.0.8
 
 ### Patch Changes
