@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 15.0.12
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.8
+  - @ctx-core/svg@13.0.9
+
 ## 15.0.11
 
 ### Patch Changes
