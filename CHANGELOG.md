@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 15.0.13
+
+### Patch Changes
+
+- fix: cjs: load as a Promise
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.9
+  - @ctx-core/svg@13.0.10
+
 ## 15.0.12
 
 ### Patch Changes
