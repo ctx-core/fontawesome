@@ -1,5 +1,23 @@
 # @ctx-core/fontawesome
 
+## 15.0.16
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.11
+  - @ctx-core/svg@13.0.13
+
+## 15.0.15
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.10
+  - @ctx-core/svg@13.0.12
+
 ## 15.0.14
 
 ### Patch Changes
