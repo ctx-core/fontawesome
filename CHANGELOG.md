@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 15.0.8
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.3
+  - @ctx-core/svg@13.0.6
+
 ## 15.0.7
 
 ### Patch Changes

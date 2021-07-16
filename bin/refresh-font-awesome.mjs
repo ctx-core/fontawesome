@@ -63,7 +63,7 @@ async function opts_() {
 			help: '-h, --help',
 		})
 	if (help) {
-		console.info(_help_msg())
+		console.info(help_msg_())
 		process.exit(0)
 	}
 	const opts_error_a = opts_error_a_({ dir, output_dir })
@@ -75,7 +75,7 @@ async function opts_() {
 		output_dir: output_dir || new URL(await resolve('../', import.meta.url)).pathname,
 	}
 }
-function _help_msg() {
+function help_msg_() {
 	return `
 Usage: refresh-font-awesome.js -d <dir> -o <output-dir>
 
