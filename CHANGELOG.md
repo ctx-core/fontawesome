@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 15.0.11
+
+### Patch Changes
+
+- fix: index.cjs: module.exports = require('./index.js')
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.7
+  - @ctx-core/svg@13.0.8
+
 ## 15.0.10
 
 ### Patch Changes
