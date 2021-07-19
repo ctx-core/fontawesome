@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 15.0.18
+
+### Patch Changes
+
+- fix: "exports": "./package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.13
+  - @ctx-core/svg@13.0.15
+
 ## 15.0.17
 
 ### Patch Changes
