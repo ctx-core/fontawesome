@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome
 
+## 15.0.22
+
+### Patch Changes
+
+- update dependencies
+
 ## 15.0.21
 
 ### Patch Changes
