@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 15.0.51
+
+### Patch Changes
+
+- htmlparser2: ^7.1.1 -> ^7.1.2
+- Updated dependencies [undefined]
+  - @ctx-core/svg@13.0.67
+
 ## 15.0.50
 
 ### Patch Changes
