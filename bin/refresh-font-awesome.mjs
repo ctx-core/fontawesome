@@ -56,23 +56,33 @@ ${component_name_r_html[Icon_name]}
 	}
 }
 async function opts_() {
-	const { dir, output_dir, help } =
+	/**
+	 * @typedef refresh_font_awesome_params_r_T
+	 * @property {string[]}dir
+	 * @property {string[]}output_dir
+	 * @property {string[]}help
+	 */
+	/**
+	 * @type refresh_font_awesome_params_r_T
+	 */
+	const param_r =
 		param_r_(process.argv.slice(2), {
-			dir: '-d, --dir',
-			output_dir: '-o, --output-dir',
+			dir_a: '-d, --dir',
+			output_dir_a: '-o, --output-dir',
 			help: '-h, --help',
 		})
+	const { dir_a, output_dir_a, help } = param_r
 	if (help) {
 		console.info(help_msg_())
 		process.exit(0)
 	}
-	const opts_error_a = opts_error_a_({ dir, output_dir })
+	const opts_error_a = opts_error_a_({ dir_a, output_dir_a })
 	if (opts_error_a) {
 		throw opts_error_a.join('\n')
 	}
 	return {
-		dir,
-		output_dir: output_dir || new URL(await resolve('../', import.meta.url)).pathname,
+		dir: dir_a[0],
+		output_dir: output_dir_a[0] || new URL(await resolve('../', import.meta.url)).pathname,
 	}
 }
 function help_msg_() {
@@ -86,12 +96,18 @@ Options:
 -o, --output-dir  Directory to output generated components to
 		`.trim()
 }
-function opts_error_a_({ dir, output_dir }) {
+/**
+ * @param dir_a{string[]}
+ * @param output_dir_a{string[]}
+ * @returns {0|*[]}
+ * @private
+ */
+function opts_error_a_({ dir_a, output_dir_a }) {
 	const error_a = []
-	if (!dir) {
+	if (!dir_a?.length) {
 		error_a.push('missing --dir <fontawesome-dir>')
 	}
-	if (!output_dir) {
+	if (!output_dir_a?.length) {
 		error_a.push('missing --output-dir <library-dir>')
 	}
 	return error_a.length && error_a
