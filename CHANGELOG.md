@@ -1,5 +1,16 @@
 # @ctx-core/fontawesome
 
+## 15.1.1
+
+### Patch Changes
+
+- htmlparser2: ^7.1.2 -> ^7.2.0
+- @swc/core: ^1.2.107 -> ^1.2.108
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/svg@13.0.80
+  - @ctx-core/array@23.0.24
+
 ## 15.1.0
 
 ### Minor Changes
