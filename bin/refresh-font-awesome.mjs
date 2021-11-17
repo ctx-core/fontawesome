@@ -1,13 +1,13 @@
 #!/usr/bin/env node
+import { getInnerHTML } from 'domutils'
 import { readFile, writeFile } from 'fs/promises'
+import { globby } from 'globby'
+import { DomHandler, Parser } from 'htmlparser2'
 import { resolve } from 'import-meta-resolve'
 import { basename, dirname } from 'path'
-import { DomHandler, Parser } from 'htmlparser2'
-import { getInnerHTML } from 'domutils'
-import { globby } from 'globby'
+import { map, sort } from '@ctx-core/array'
 import { param_r_ } from '@ctx-core/cli-args'
 import { assign, keys } from '@ctx-core/object'
-import { map, sort } from '@ctx-core/array'
 await main()
 async function main() {
 	const { dir, output_dir } = await opts_()
