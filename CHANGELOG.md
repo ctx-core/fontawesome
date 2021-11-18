@@ -1,5 +1,16 @@
 # @ctx-core/fontawesome
 
+## 15.1.3
+
+### Patch Changes
+
+- typescript: ^4.4.4 -> ^4.5.2
+- @swc/core: ^1.2.108 -> ^1.2.110
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@23.0.25
+  - @ctx-core/svg@14.0.1
+
 ## 15.1.2
 
 ### Patch Changes
