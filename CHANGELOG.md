@@ -1,5 +1,27 @@
 # @ctx-core/fontawesome
 
+## 15.1.5
+
+### Patch Changes
+
+- @swc/cli: ^0.1.51 -> ^0.1.52
+- @swc/core: ^1.2.111 -> ^1.2.113
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@23.0.27
+  - @ctx-core/svg@14.0.3
+
+## 15.1.4
+
+### Patch Changes
+
+- svelte: 3.44.1 -> 3.44.2
+- @swc/core: ^1.2.110 -> ^1.2.111
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/svg@14.0.2
+  - @ctx-core/array@23.0.26
+
 ## 15.1.3
 
 ### Patch Changes
