@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "15.1.10",
+	"version": "15.1.11",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -40,7 +40,7 @@
 		"svelte": "3.44.2"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^11.0.8",
+		"@ctx-core/cli-args": "workspace:^11.0.9",
 		"@swc/cli": "^0.1.52",
 		"@swc/core": "^1.2.118",
 		"typescript": "next"
