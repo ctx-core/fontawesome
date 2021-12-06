@@ -31,8 +31,8 @@
 	"module": "./dist/index.js",
 	"types": "./src/index.ts",
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.30",
-		"@ctx-core/svg": "workspace:^14.0.7",
+		"@ctx-core/array": "workspace:^23.0.31",
+		"@ctx-core/svg": "workspace:^14.0.8",
 		"domutils": "^2.8.0",
 		"globby": "^12.0.2",
 		"htmlparser2": "^7.2.0",
@@ -40,7 +40,7 @@
 		"svelte": "3.44.2"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^11.0.7",
+		"@ctx-core/cli-args": "workspace:^11.0.8",
 		"@swc/cli": "^0.1.52",
 		"@swc/core": "^1.2.118",
 		"typescript": "next"
