@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome
 
+## 15.1.8
+
+### Patch Changes
+
+- fix: ui exports
+
 ## 15.1.7
 
 ### Patch Changes

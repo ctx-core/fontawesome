@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "15.1.7",
+	"version": "15.1.8",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -30,13 +30,6 @@
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"types": "./src/index.ts",
-	"exports": {
-		".": {
-			"require": "./dist/index.cjs",
-			"import": "./dist/index.js"
-		},
-		"./package.json": "./package.json"
-	},
 	"dependencies": {
 		"@ctx-core/array": "workspace:^23.0.29",
 		"@ctx-core/svg": "workspace:^14.0.5",
