@@ -1,5 +1,14 @@
 # @ctx-core/fontawesome
 
+## 15.1.12
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/array@23.0.32
+  - @ctx-core/svg@14.0.9
+
 ## 15.1.11
 
 ### Patch Changes
