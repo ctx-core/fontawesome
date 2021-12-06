@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 15.1.10
+
+### Patch Changes
+
+- fix: @ctx-core/svg: Icon export
+- Updated dependencies
+  - @ctx-core/svg@14.0.7
+
 ## 15.1.9
 
 ### Patch Changes
