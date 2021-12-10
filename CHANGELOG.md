@@ -1,5 +1,15 @@
 # @ctx-core/fontawesome
 
+## 15.1.14
+
+### Patch Changes
+
+- package.json: - module
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/svg@15.0.0
+  - @ctx-core/array@23.0.33
+
 ## 15.1.13
 
 ### Patch Changes
