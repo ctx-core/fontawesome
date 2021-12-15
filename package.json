@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "16.0.2",
+	"version": "16.0.3",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ctx-core/fontawesome/issues"
+		"url": "https://github.com/ctx-core/fontawesome.git"
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
@@ -26,13 +26,13 @@
 	"types": "./src/index.ts",
 	"exports": {
 		".": {
-			"types": "./src/index.ts",
-			"import": "./dist/index.js"
+			"import": "./dist/index.js",
+			"types": "./src/index.ts"
 		},
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/svg": "workspace:^16.0.1"
+		"@ctx-core/svg": "workspace:^16.0.2"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
