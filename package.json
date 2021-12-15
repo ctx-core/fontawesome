@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "16.0.1",
+	"version": "16.0.2",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -32,7 +32,7 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/svg": "workspace:^16.0.0"
+		"@ctx-core/svg": "workspace:^16.0.1"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
@@ -44,5 +44,6 @@
 		"access": "public",
 		"cache": "~/.npm"
 	},
-	"type": "module"
+	"type": "module",
+	"svelte": "./dist/index.js"
 }
