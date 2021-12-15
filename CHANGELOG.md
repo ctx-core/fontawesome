@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome
 
+## 16.0.1
+
+### Patch Changes
+
+- fix: package.json: + exports
+
 ## 16.0.0
 
 ### Major Changes
