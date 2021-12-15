@@ -18,7 +18,7 @@
 	"author": "Brian Takita",
 	"scripts": {
 		"build": "npm run compile",
-		"clean": "rm -rf dist",
+		"clean": "rimraf dist",
 		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
@@ -31,6 +31,7 @@
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.120",
+		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
 	"publishConfig": {
