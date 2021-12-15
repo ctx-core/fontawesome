@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 16.0.4
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/svg@16.0.3
+
 ## 16.0.3
 
 ### Patch Changes
