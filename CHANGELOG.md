@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 16.0.8
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/svg@16.0.7
+
 ## 16.0.7
 
 ### Patch Changes
