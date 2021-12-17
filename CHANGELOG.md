@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 16.0.7
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/svg@16.0.6
+
 ## 16.0.6
 
 ### Patch Changes

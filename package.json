@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "16.0.6",
+	"version": "16.0.7",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -26,7 +26,7 @@
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
 	},
-	"types": "./dist/index.d.ts",
+	"types": "./src/index.ts",
 	"exports": {
 		".": {
 			"import": "./dist/index.js"
@@ -34,7 +34,7 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/svg": "workspace:^16.0.5"
+		"@ctx-core/svg": "workspace:^16.0.6"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
