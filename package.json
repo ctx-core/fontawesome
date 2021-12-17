@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "16.0.5",
+	"version": "16.0.6",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -18,23 +18,23 @@
 	"author": "Brian Takita",
 	"scripts": {
 		"build": "npm run compile",
-		"clean": "rimraf dist",
+		"clean": "rimraf dist && npm run clean_tsbuildinfo",
+		"clean_tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.d.ts",
 		"compile": "npm run compile_source && npm run compile_declaration",
 		"compile_source": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
-		"compile_declaration": "tsc src/index.ts --declaration --emitDeclarationOnly --declarationDir dist",
+		"compile_declaration": "npm run clean_tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir dist",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/index.js",
-			"types": "./dist/index.d.ts"
+			"import": "./dist/index.js"
 		},
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/svg": "workspace:^16.0.4"
+		"@ctx-core/svg": "workspace:^16.0.5"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
