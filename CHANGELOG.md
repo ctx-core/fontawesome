@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 16.0.9
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/svg@16.0.8
+
 ## 16.0.8
 
 ### Patch Changes
