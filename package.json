@@ -34,11 +34,11 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/svg": "workspace:^16.0.8"
+		"@ctx-core/svg-ui-svelte": "workspace:^1.0.11"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.120",
+		"@swc/core": "^1.2.121",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},

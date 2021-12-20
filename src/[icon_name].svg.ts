@@ -2,7 +2,7 @@ import { join } from 'path'
 import resolve from 'resolve'
 import { promisify } from 'util'
 const resolve_async = promisify(resolve)
-import { svg_get_, get_opts__T, get__T, get_T, svg_get__resolve_T } from '@ctx-core/svg'
+import { svg_get_, get_opts__T, get__T, get_T, svg_get__resolve_T } from '@ctx-core/svg-ui-svelte'
 export const get_ = ((opts:get_opts__T = {})=>{
 	const { fn } = opts
 	return svg_get_({
