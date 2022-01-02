@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome
 
+## 16.0.11
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+
 ## 16.0.10
 
 ### Patch Changes
