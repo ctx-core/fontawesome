@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "16.0.16",
+	"version": "16.0.17",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -34,7 +34,7 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/svg-ui-svelte": "workspace:^1.1.10"
+		"@ctx-core/svg-ui-svelte": "workspace:^1.1.12"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
