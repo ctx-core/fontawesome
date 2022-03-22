@@ -37,7 +37,7 @@
 		"@ctx-core/svg-ui-svelte": "^1.1.18"
 	},
 	"devDependencies": {
-		"@swc/cli": "^0.1.55",
+		"@swc/cli": "^0.1.56",
 		"@swc/core": "^1.2.159",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
