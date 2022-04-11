@@ -34,7 +34,7 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/svg-ui-svelte": "^1.1.22"
+		"@ctx-core/svg-ui-svelte": "^1.1.23"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
