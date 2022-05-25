@@ -32,11 +32,11 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/svg-ui-svelte": "^1.1.35"
+		"@ctx-core/svg-ui-svelte": "^1.1.37"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.189",
+		"@swc/core": "^1.2.192",
 		"@types/resolve": "^1.20.2",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
