@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome
 
+## 16.0.31
+
+### Patch Changes
+
+- version bump
+
 ## 16.0.30
 
 ### Patch Changes
