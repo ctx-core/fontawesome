@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 16.0.48
+
+### Patch Changes
+
+- rimraf: ^4.0.1 -> ^4.0.4
+- Updated dependencies
+  - @ctx-core/svg-ui-svelte@1.2.25
+
 ## 16.0.47
 
 ### Patch Changes
