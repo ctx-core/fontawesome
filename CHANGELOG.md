@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome
 
+## 16.0.47
+
+### Patch Changes
+
+- rimraf: ^3.0.2 -> ^4.0.1
+
 ## 16.0.46
 
 ### Patch Changes
