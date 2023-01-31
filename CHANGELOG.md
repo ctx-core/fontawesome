@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 16.0.53
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/svg-ui-svelte@1.2.30
+
 ## 16.0.52
 
 ### Patch Changes
