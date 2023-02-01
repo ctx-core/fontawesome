@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome
 
+## 16.0.55
+
+### Patch Changes
+
+- @swc/core: ^1.3.31 -> ^1.3.32
+
 ## 16.0.54
 
 ### Patch Changes

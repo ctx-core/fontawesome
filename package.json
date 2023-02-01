@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "16.0.54",
+	"version": "16.0.55",
 	"description": "ctx-core fontawesome",
 	"keywords": [
 		"ctx-core",
@@ -36,7 +36,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.60",
-		"@swc/core": "^1.3.31",
+		"@swc/core": "^1.3.32",
 		"@types/resolve": "^1.20.2",
 		"rimraf": "^4.1.2",
 		"typescript": "next"
