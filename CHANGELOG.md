@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome
 
+## 16.1.10
+
+### Patch Changes
+
+- dependencies: + @ctx-core/cli-args,dom-serializer,tiny-glob
+
 ## 16.1.9
 
 ### Patch Changes
