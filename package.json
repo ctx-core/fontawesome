@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "16.1.11",
+	"version": "16.1.12",
 	"type": "module",
 	"description": "ctx-core fontawesome",
 	"keywords": [
@@ -33,7 +33,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/svg-ui-svelte": "^1.2.53"
+		"@ctx-core/svg-ui-svelte": "^1.2.54"
 	},
 	"devDependencies": {
 		"c8": "^7.13.0",
