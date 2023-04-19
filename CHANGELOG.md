@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 16.1.73
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/svg-ui-svelte@1.2.118
+
 ## 16.1.72
 
 ### Patch Changes
