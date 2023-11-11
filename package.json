@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "16.1.145",
+	"version": "16.2.0",
 	"type": "module",
 	"description": "ctx-core fontawesome",
 	"keywords": [
@@ -17,10 +17,13 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
-	"types": "./src/index.d.ts",
-	"svelte": "./src/index.js",
+	"files": [
+		"*.d.ts",
+		"./[icon_name].svg"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -33,7 +36,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/svg-ui-svelte": "^1.2.191"
+		"@ctx-core/svg-ui-svelte": "^1.3.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
