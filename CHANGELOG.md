@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 16.2.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/svg-ui-svelte@1.3.2
+
 ## 16.2.1
 
 ### Patch Changes
