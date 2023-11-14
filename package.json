@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/fontawesome",
-	"version": "16.2.2",
+	"version": "16.2.3",
 	"type": "module",
 	"description": "ctx-core fontawesome",
 	"keywords": [
@@ -19,6 +19,7 @@
 	"author": "Brian Takita",
 	"files": [
 		"*.d.ts",
+		"*.js",
 		"*.json",
 		"./[icon_name].svg"
 	],
@@ -37,7 +38,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/svg-ui-svelte": "^1.3.2"
+		"@ctx-core/svg-ui-svelte": "^1.3.3"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
