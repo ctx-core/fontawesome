@@ -1,5 +1,13 @@
 # @ctx-core/fontawesome
 
+## 16.2.103
+
+### Patch Changes
+
+- import nodejs core modules using node: prefix
+- Updated dependencies
+  - @ctx-core/svg-ui-svelte@1.3.106
+
 ## 16.2.102
 
 ### Patch Changes

@@ -1,5 +1,5 @@
 import { svg_get_ } from '@ctx-core/svg-ui-svelte'
-import { join } from 'path'
+import { join } from 'node:path'
 import resolve from 'resolve'
 import { promisify } from 'util'
 const resolve_async = promisify(resolve)
