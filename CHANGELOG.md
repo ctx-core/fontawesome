@@ -1,5 +1,11 @@
 # @ctx-core/fontawesome
 
+## 16.2.145
+
+### Patch Changes
+
+- @ctx-core/svg-ui-svelte: ^1.3.148 -> ^1.3.149
+
 ## 16.2.144
 
 ### Patch Changes
