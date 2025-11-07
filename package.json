@@ -43,12 +43,12 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/svg-ui-svelte": "^1.3.256"
+		"@ctx-core/svg-ui-svelte": "*"
 	},
 	"devDependencies": {
-		"c8": "^10.1.2",
+		"c8": "^10.1.3",
 		"check-dts": "^0.8.2",
-		"tsx": "^4.19.0",
+		"tsx": "^4.20.6",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
